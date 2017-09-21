@@ -1,8 +1,8 @@
-const resample = require('ndarray-resample')
-const savePixels = require('save-pixels')
-const getPixels = require('get-pixels')
-const ndarray = require('ndarray')
-const bl = require('bl')
+var resample = require('ndarray-resample')
+var savePixels = require('save-pixels')
+var getPixels = require('get-pixels')
+var ndarray = require('ndarray')
+var bl = require('bl')
 
 module.exports = resizePngBuffer
 

@@ -1,8 +1,8 @@
-const resizePngBuffer = require('./')
-const map = require('map-limit')
-const fs = require('fs')
+var resizePngBuffer = require('./')
+var map = require('map-limit')
+var fs = require('fs')
 
-const resize = resizePngBuffer(fs.readFileSync('image.png'))
+var resize = resizePngBuffer(fs.readFileSync('image.png'))
 
 map([
   96, 128, 196, 72, 57, 64, 32, 48,

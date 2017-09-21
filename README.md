@@ -5,10 +5,10 @@ Resize a PNG buffer into square images of different sizes.
 ## Usage
 
 ``` javascript
-const resizePngBuffer = require('resize-png-buffer')
-const fs = require('fs')
+var resizePngBuffer = require('resize-png-buffer')
+var fs = require('fs')
 
-const resize = resizePngBuffer(fs.readFileSync('image.png'))
+var resize = resizePngBuffer(fs.readFileSync('image.png'))
 
 resize([96, 96], function (err, buffer) {
   if (err) return next(err)
