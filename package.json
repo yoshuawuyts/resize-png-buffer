@@ -1,7 +1,7 @@
 {
   "name": "resize-png-buffer",
   "description": "Resize a PNG buffer into square images of different sizes.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "dependencies": {
     "bl": "^1.2.1",
