@@ -1,0 +1,36 @@
+{
+  "name": "resize-png-buffer",
+  "description": "Resize a PNG buffer into square images of different sizes.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "bl": "^1.2.1",
+    "get-pixels": "^3.3.0",
+    "ndarray": "^1.0.18",
+    "ndarray-resample": "^1.0.1",
+    "save-pixels": "^2.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoshuawuyts/resize-png-buffer.git"
+  },
+  "keywords": [
+    "resize",
+    "image",
+    "png",
+    "buffer",
+    "square",
+    "icon",
+    "favicon",
+    "pixels"
+  ],
+  "authors": [
+    "Hugh Kennedy <hughskennedy@gmail.com> (https://hughsk.io/)",
+    "Yoshua Wuyts <yoshuawuyts@gmail.com> (https://yoshuwuyts.com/)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hughsk/resize-png-buffer/issues"
+  },
+  "homepage": "https://github.com/hughsk/resize-png-buffer#readme"
+}
